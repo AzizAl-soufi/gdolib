@@ -81,8 +81,8 @@ file1 = open("H5.html",'w')
 file1.write('')
 
 
-def run(port='',auto_open=''):
-	if port== '':
+def run(port=None,auto_open=''):
+	if not port:
 		print('\033[1;31mRunnig By \033[1;32mGDO\033[0;37m ')
 		print('[port] http://127.0.0.1:8000/H5.html')
 		if auto_open == True:
@@ -133,19 +133,19 @@ def title(text='gdolib'):
 	file.close()
 
 
-def style(__class__='',id='',styles=''):
+def style(__class__=None,id=None,styles=None):
 	file = open('H5.html','a')
 	file.write('<style>')
 	file.close()
-	if __class__ == '':
-		name=''
+	if not __class__:
+		name=None
 	else:
 		file = open('H5.html','a')
 		file.write(f'.{__class__}'+'{'+styles+'}')
 		file.close()
 
-	if id == '':
-		name=''
+	if not id:
+		name=None
 	else:
 		file = open('H5.html','a')
 		file.write(f'#{id}'+'{'+styles+'}')
@@ -192,7 +192,7 @@ def line(count=0):
 	file.close()
 
 
-def button(name='',id='',text='',style='',__class__=''):
+def button(name=None,id=None,text=None,style=None,__class__=None):
 	file = open('H5.html','a')
 	file.write('<button ')
 	file.close()
@@ -236,7 +236,7 @@ def button(name='',id='',text='',style='',__class__=''):
 	file.close()
 
 
-def input(name='',id='',text='',style='',placeholder='',__class__=''):
+def input(name=None,id=None,text=None,style=None,placeholder=None,__class__=None):
 	file = open('H5.html','a')
 	file.write('<input ')
 	file.close()
@@ -287,7 +287,7 @@ def input(name='',id='',text='',style='',placeholder='',__class__=''):
 	file.close()
 
 
-def textarea(name='',id='',style='',text='',placeholder='',__class__=''):
+def textarea(name=None,id=None,style=None,text=None,placeholder=None,__class__=None):
 	file = open('H5.html','a')
 	file.write('<textarea ')
 	file.close()
@@ -338,7 +338,7 @@ def textarea(name='',id='',style='',text='',placeholder='',__class__=''):
 	file.close()
 
 
-def a(text='',target='',id='',name='',href='',style='',__class__=''):
+def a(text=None,target=None,id=None,name=None,href=None,style=None,__class__=None):
 	file = open('H5.html','a')
 	file.write('<a ')
 	file.close()
@@ -396,7 +396,7 @@ def a(text='',target='',id='',name='',href='',style='',__class__=''):
 	file.close()
 
 
-def img(src='',text='',id='',style='',name='',alt='',__class__=''):
+def img(src=None,text=None,id=None,style=None,name=None,alt=None,__class__=None):
 	file = open('H5.html','a')
 	file.write('<img ')
 	file.close()
@@ -455,7 +455,7 @@ def img(src='',text='',id='',style='',name='',alt='',__class__=''):
 
 
 
-def h1(name='',id='',text='',style='',__class__=''):
+def h1(name=None,id=None,text=None,style=None,__class__=None):
 	file = open('H5.html','a')
 	file.write('<h1 ')
 	file.close()
@@ -498,7 +498,7 @@ def h1(name='',id='',text='',style='',__class__=''):
 	file.close()
 
 
-def h2(name='',id='',text='',style='',__class__=''):
+def h2(name=None,id=None,text=None,style=None,__class__=None):
 	file = open('H5.html','a')
 	file.write('<h2 ')
 	file.close()
@@ -541,7 +541,7 @@ def h2(name='',id='',text='',style='',__class__=''):
 	file.close()
 
 
-def h3(name='',id='',text='',style='',__class__=''):
+def h3(name=None,id=None,text=None,style=None,__class__=None):
 	file = open('H5.html','a')
 	file.write('<h3 ')
 	file.close()
@@ -585,7 +585,7 @@ def h3(name='',id='',text='',style='',__class__=''):
 	file.close()
 
 
-def h4(name='',id='',text='',style='',__class__=''):
+def h4(name=None,id=None,text=None,style=None,__class__=None):
 	file = open('H5.html','a')
 	file.write('<h4 ')
 	file.close()
