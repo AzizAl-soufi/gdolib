@@ -10,7 +10,7 @@ Programed language used: html, css, python
 
 type code help()
 
-~ Programmer Telegram : @GDOTools - @GDO_0 .
+~ folow us in Telegram : @gdolib, @gdo_0.
 
 """
 
@@ -127,7 +127,7 @@ def head_end():
 	file.close()
 
 
-def title(text):
+def title(text='gdolib'):
 	file = open('H5.html','a')
 	file.write(f'<title>{text}</title>')
 	file.close()
@@ -196,35 +196,35 @@ def button(name='',id='',text='',style='',__class__=''):
 	file = open('H5.html','a')
 	file.write('<button ')
 	file.close()
-	if name == '':
+	if not name:
 		none=None
 	else:
 		file = open('H5.html','a')
 		file.write(f'name="{name}" ')
 		file.close()
 
-	if id == '':
+	if not id:
 		none=None
 	else:
 		file = open('H5.html','a')
 		file.write(f'id="{id}" ')
 		file.close()
 
-	if __class__ == '':
+	if not __class__:
 		none=None
 	else:
 		file = open('H5.html','a')
 		file.write(f'class="{__class__}" ')
 		file.close()
 
-	if style == '':
+	if not style:
 		none=None
 	else:
 		file = open('H5.html','a')
 		file.write(f'style="{style}" ')
 		file.close()
 
-	if text == '':
+	if not text:
 		none=None
 	else:
 		file = open('H5.html','a')
@@ -240,42 +240,42 @@ def input(name='',id='',text='',style='',placeholder='',__class__=''):
 	file = open('H5.html','a')
 	file.write('<input ')
 	file.close()
-	if name == '':
+	if not name:
 		none=None
 	else:
 		file = open('H5.html','a')
 		file.write(f'name="{name}" ')
 		file.close()
 
-	if id == '':
+	if not id:
 		none=None
 	else:
 		file = open('H5.html','a')
 		file.write(f'id="{id}" ')
 		file.close()
 
-	if __class__ == '':
+	if not __class__:
 		none=None
 	else:
 		file = open('H5.html','a')
 		file.write(f'class="{__class__}" ')
 		file.close()
 
-	if style == '':
+	if not style:
 		none=None
 	else:
 		file = open('H5.html','a')
 		file.write(f'style="{style}" ')
 		file.close()
 
-	if placeholder == '':
+	if not placeholder:
 		none=None
 	else:
 		file = open('H5.html','a')
 		file.write(f'placeholder="{placeholder}"')
 		file.close()
 
-	if text == '':
+	if not text:
 		none=None
 	else:
 		file = open('H5.html','a')
@@ -291,42 +291,42 @@ def textarea(name='',id='',style='',text='',placeholder='',__class__=''):
 	file = open('H5.html','a')
 	file.write('<textarea ')
 	file.close()
-	if name == '':
+	if not name:
 		none=None
 	else:
 		file = open('H5.html','a')
 		file.write(f'name="{name}" ')
 		file.close()
 
-	if id == '':
+	if not id:
 		none=None
 	else:
 		file = open('H5.html','a')
 		file.write(f'id="{id}" ')
 		file.close()
 
-	if __class__ == '':
+	if not __class__:
 		none=None
 	else:
 		file = open('H5.html','a')
 		file.write(f'class="{__class__}" ')
 		file.close()
 
-	if style == '':
+	if not style:
 		none=None
 	else:
 		file = open('H5.html','a')
 		file.write(f'style="{style}" ')
 		file.close()
 
-	if placeholder == '':
+	if not placeholder:
 		none=None
 	else:
 		file = open('H5.html','a')
 		file.write(f'placeholder="{placeholder}"')
 		file.close()
 
-	if text == '':
+	if not text:
 		none=None
 	else:
 		file = open('H5.html','a')
@@ -342,49 +342,49 @@ def a(text='',target='',id='',name='',href='',style='',__class__=''):
 	file = open('H5.html','a')
 	file.write('<a ')
 	file.close()
-	if name == '':
+	if not name:
 		none=None
 	else:
 		file = open('H5.html','a')
 		file.write(f'name="{name}" ')
 		file.close()
 
-	if target == '':
+	if not target:
 		none=None
 	else:
 		file = open('H5.html','a')
 		file.write(f'target="{target}" ')
 		file.close()
 
-	if id == '':
+	if not id:
 		none=None
 	else:
 		file = open('H5.html','a')
 		file.write(f'id="{id}" ')
 		file.close()
 
-	if __class__ == '':
+	if not __class__:
 		none=None
 	else:
 		file = open('H5.html','a')
 		file.write(f'class="{__class__}" ')
 		file.close()
 
-	if href == '':
+	if not href:
 		none=None
 	else:
 		file = open('H5.html','a')
 		file.write(f'href="{href}" ')
 		file.close()
 
-	if style == '':
+	if not style:
 		none=None
 	else:
 		file = open('H5.html','a')
 		file.write(f'style="{style}" ')
 		file.close()
 
-	if text == '':
+	if not text:
 		none=None
 	else:
 		file = open('H5.html','a')
@@ -400,49 +400,49 @@ def img(src='',text='',id='',style='',name='',alt='',__class__=''):
 	file = open('H5.html','a')
 	file.write('<img ')
 	file.close()
-	if name == '':
+	if not name:
 		none=None
 	else:
 		file = open('H5.html','a')
 		file.write(f'name="{name}" ')
 		file.close()
 
-	if src == '':
+	if not src:
 		none=None
 	else:
 		file = open('H5.html','a')
 		file.write(f'src="{src}" ')
 		file.close()
 
-	if id == '':
+	if not id:
 		none=None
 	else:
 		file = open('H5.html','a')
 		file.write(f'id="{id}" ')
 		file.close()
 
-	if __class__ == '':
+	if not __class__:
 		none=None
 	else:
 		file = open('H5.html','a')
 		file.write(f'class="{__class__}" ')
 		file.close()
 
-	if alt == '':
+	if not alt:
 		none=None
 	else:
 		file = open('H5.html','a')
 		file.write(f'alt="{alt}" ')
 		file.close()
 
-	if style == '':
+	if not style:
 		none=None
 	else:
 		file = open('H5.html','a')
 		file.write(f'style="{style}" ')
 		file.close()
 
-	if text == '':
+	if not text:
 		none=None
 	else:
 		file = open('H5.html','a')
@@ -459,41 +459,40 @@ def h1(name='',id='',text='',style='',__class__=''):
 	file = open('H5.html','a')
 	file.write('<h1 ')
 	file.close()
-	if name == '':
+	if not name:
 		none=None
 	else:
 		file = open('H5.html','a')
 		file.write(f'name="{name}" ')
 		file.close()
 
-	if id == '':
+	if not id:
 		none=None
 	else:
 		file = open('H5.html','a')
 		file.write(f'id="{id}" ')
 		file.close()
 
-	if __class__ == '':
+	if not __class__:
 		none=None
 	else:
 		file = open('H5.html','a')
 		file.write(f'class="{__class__}" ')
 		file.close()
 
-	if style == '':
+	if not style:
 		none=None
 	else:
 		file = open('H5.html','a')
 		file.write(f'style="{style}" ')
 		file.close()
 
-	if text == '':
+	if not text:
 		none=None
 	else:
 		file = open('H5.html','a')
 		file.write(f'>{text}')
 		file.close()
-
 	file = open('H5.html','a')
 	file.write('</h1>')
 	file.close()
@@ -501,125 +500,125 @@ def h1(name='',id='',text='',style='',__class__=''):
 
 def h2(name='',id='',text='',style='',__class__=''):
 	file = open('H5.html','a')
-	file.write('<h1 ')
+	file.write('<h2 ')
 	file.close()
-	if name == '':
+	if not name:
 		none=None
 	else:
 		file = open('H5.html','a')
 		file.write(f'name="{name}" ')
 		file.close()
 
-	if id == '':
+	if not id:
 		none=None
 	else:
 		file = open('H5.html','a')
 		file.write(f'id="{id}" ')
 		file.close()
 
-	if __class__ == '':
+	if not __class__:
 		none=None
 	else:
 		file = open('H5.html','a')
 		file.write(f'class="{__class__}" ')
 		file.close()
 
-	if style == '':
+	if not style:
 		none=None
 	else:
 		file = open('H5.html','a')
 		file.write(f'style="{style}" ')
 		file.close()
 
-	if text == '':
+	if not text:
 		none=None
 	else:
 		file = open('H5.html','a')
 		file.write(f'>{text}')
 		file.close()
-
 	file = open('H5.html','a')
-	file.write('</h1>')
+	file.write('</h2>')
 	file.close()
 
 
 def h3(name='',id='',text='',style='',__class__=''):
 	file = open('H5.html','a')
-	file.write('<h1 ')
+	file.write('<h3 ')
 	file.close()
-	if name == '':
+
+	if not name:
 		none=None
 	else:
 		file = open('H5.html','a')
 		file.write(f'name="{name}" ')
 		file.close()
 
-	if id == '':
+	if not id:
 		none=None
 	else:
 		file = open('H5.html','a')
 		file.write(f'id="{id}" ')
 		file.close()
 
-	if __class__ == '':
+	if not __class__:
 		none=None
 	else:
 		file = open('H5.html','a')
 		file.write(f'class="{__class__}" ')
 		file.close()
 
-	if style == '':
+	if not style:
 		none=None
 	else:
 		file = open('H5.html','a')
 		file.write(f'style="{style}" ')
 		file.close()
 
-	if text == '':
+	if not text:
 		none=None
 	else:
 		file = open('H5.html','a')
 		file.write(f'>{text}')
 		file.close()
-
 	file = open('H5.html','a')
-	file.write('</h1>')
+	file.write('</h3>')
 	file.close()
 
 
 def h4(name='',id='',text='',style='',__class__=''):
 	file = open('H5.html','a')
-	file.write('<h1 ')
+	file.write('<h4 ')
 	file.close()
-	if name == '':
+
+	if not name:
 		none=None
 	else:
 		file = open('H5.html','a')
 		file.write(f'name="{name}" ')
 		file.close()
 
-	if id == '':
+	if not id:
 		none=None
 	else:
 		file = open('H5.html','a')
 		file.write(f'id="{id}" ')
 		file.close()
 
-	if __class__ == '':
+	if not __class__:
 		none=None
 	else:
 		file = open('H5.html','a')
 		file.write(f'class="{__class__}" ')
 		file.close()
 
-	if style == '':
+	if not style:
 		none=None
 	else:
 		file = open('H5.html','a')
 		file.write(f'style="{style}" ')
 		file.close()
 
-	if text == '':
+	if not text:
 		none=None
 	else:
 		file = open('H5.html','a')
@@ -627,43 +626,43 @@ def h4(name='',id='',text='',style='',__class__=''):
 		file.close()
 
 	file = open('H5.html','a')
-	file.write('</h1>')
+	file.write('</h4')
 	file.close()
 
 
-def h5(name='',id='',text='',style='',__class__=''):
+def h5(name=None,id=None,text=None,style=None,__class__=None):
 	file = open('H5.html','a')
-	file.write('<h1 ')
+	file.write('<h5 ')
 	file.close()
-	if name == '':
+	if not name:
 		none=None
 	else:
 		file = open('H5.html','a')
 		file.write(f'name="{name}" ')
 		file.close()
 
-	if id == '':
+	if not id:
 		none=None
 	else:
 		file = open('H5.html','a')
 		file.write(f'id="{id}" ')
 		file.close()
 
-	if __class__ == '':
+	if not __class__:
 		none=None
 	else:
 		file = open('H5.html','a')
 		file.write(f'class="{__class__}" ')
 		file.close()
 
-	if style == '':
+	if not style:
 		none=None
 	else:
 		file = open('H5.html','a')
 		file.write(f'style="{style}" ')
 		file.close()
 
-	if text == '':
+	if not text:
 		none=None
 	else:
 		file = open('H5.html','a')
@@ -671,43 +670,43 @@ def h5(name='',id='',text='',style='',__class__=''):
 		file.close()
 
 	file = open('H5.html','a')
-	file.write('</h1>')
+	file.write('</h5>')
 	file.close()
 
 
-def h6(name='',id='',text='',style='',__class__=''):
+def h6(name=None,id=None,text=None,style=None,__class__=None):
 	file = open('H5.html','a')
-	file.write('<h1 ')
+	file.write('<h6 ')
 	file.close()
-	if name == '':
+	if not name:
 		none=None
 	else:
 		file = open('H5.html','a')
 		file.write(f'name="{name}" ')
 		file.close()
 
-	if id == '':
+	if not id:
 		none=None
 	else:
 		file = open('H5.html','a')
 		file.write(f'id="{id}" ')
 		file.close()
 
-	if __class__ == '':
+	if not __class__:
 		none=None
 	else:
 		file = open('H5.html','a')
 		file.write(f'class="{__class__}" ')
 		file.close()
 
-	if style == '':
+	if not style:
 		none=None
 	else:
 		file = open('H5.html','a')
 		file.write(f'style="{style}" ')
 		file.close()
 
-	if text == '':
+	if not text:
 		none=None
 	else:
 		file = open('H5.html','a')
@@ -715,12 +714,13 @@ def h6(name='',id='',text='',style='',__class__=''):
 		file.close()
 
 	file = open('H5.html','a')
-	file.write('</h1>')
+	file.write('</h6>')
 	file.close()
 
 
-def get_source_code_form(url=''):
-
+def get_source_code_form(url=None):
+	if not url:
+		raise ValueError('argument "url" required')
 	if 'http' in url:
 		code = requests.get(url).text
 		file = open('H5.html','w')
